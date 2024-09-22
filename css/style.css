@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+
+
+
+/* bannar css start */
+.banner p{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.banner button{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding: 12px 24px;
+    background: #9D1562;
+    border: none;
+    border-radius: 8px;
+    color: #ffff;
+    cursor: pointer;
+    margin-right: 22px;
+}
+.banner img{
+    margin-bottom: 25px;
+}
+
+.banner .btn2{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding: 12px 24px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    color: #9D1562;
+    cursor: pointer;
+}
+
+#Banner {
+    position: relative;
+}
+
+#Banner::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 25%;
+    background: url('../images/shape.png') no-repeat left top;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+#Banner::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 50%;
+}
+.banner{
+    padding-top: 127px;
+}
+
+.bannercon{
+    padding: 0;
+}
+.bannerRow{
+    padding: 0;
+}
+.bannerCol{
+    padding: 0;
+}
+#About{
+    background: #FFE4F3;
+    padding-bottom: 102px;
+}
+/* bannar css end */
+
+
+
+/* about css start */
+
+.aboutText h2{
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #9D1562;
+}
+.aboutText h3{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    padding-top: 20px;
+}
+.aboutText p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    color: #000;
+    padding-top: 18px;
+}
+.aboutImg img{
+    width: 422px;
+}
+.aboutText{
+    padding-top: 3rem;
+}
+/* about css end */
+
+/* Insepering css start */
+#Insepering{
+    padding: 120px 0;
+}
+.heading h3{
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.41px;
+    text-align: center;
+    color: #9D1562;
+}
+.heading p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    text-align: center;
+    color: #000;
+    max-width: 587.54px;
+    padding-bottom: 102px;
+    padding-top: 24px;
+    margin: 0 auto;
+}
+
+.card h4{
+    font-family: "Inter", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 47.6px;
+    color: #000000;
+    text-align: center;
+    padding-top: 7rem;
+    padding-bottom: 68px;
+}
+.card{
+    background: #FBDEED;
+    border-radius: 30px;
+    position: relative;
+    max-width: 364.79px;
+    height: auto;
+}
+.card img{
+    width: 100px;
+    height: auto;
+    background: #9D1562;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    position: absolute;
+    left: 50%;
+    top: -26%;
+    transform: translateX(-50%);
+    padding: 20px;
+}
+
+/* === */
+
+.active h4{
+    font-family: "Inter", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 47.6px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 7rem;
+    padding-bottom: 68px;
+}
+.active{
+    background: #9D1562;
+    border-radius: 30px;
+    position: relative;
+    max-width: 364.79px;
+    height: auto;
+}
+.active img{
+    width: 100px;
+    height: auto;
+    background: #FBDEED;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    position: absolute;
+    left: 50%;
+    top: -26%;
+    transform: translateX(-50%);
+    padding: 20px;
+}
+
+/* Insepering css end */
+
+/* comunity css start */
+.com h4{
+    font-family: "Inter", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 47.6px;
+    max-width: 219px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+.com img{
+    max-width: 227.22px;
+    height: 227.22px;
+    margin-left: 39px;
+    margin-bottom: 24px;
+}
+.comHeading h2{
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.41px;
+    text-align: center;
+    padding-bottom: 56px;
+    color: #ffff;
+}
+.partNer{
+    padding-top: 56px;
+}
+/* comunity css end */

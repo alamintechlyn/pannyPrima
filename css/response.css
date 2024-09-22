@@ -1,0 +1,147 @@
+@media (min-width: 1400px) {
+}
+
+@media(min-width:1200px) and (max-width:1399.98px){
+ 
+  
+}
+
+
+@media(min-width:992px) and (max-width:1199.98px){
+ 
+
+
+}
+
+
+@media(min-width:768px) and (max-width:991.98px){
+
+
+}
+
+   
+
+@media (min-width: 576px) and (max-width: 767px) {
+  /* banner css start */
+    .banner img{
+        width: 384.97px;
+        height: 107.62px;  
+    }
+    .banner p{
+        font-size: 16px !important;
+    }
+    .button {
+        display: flex !important;
+        justify-content: center;
+    }
+    .button button{
+        font-size: 16px !important;
+        margin-right: 8px !important;
+    }
+    .button button:last-child{
+        margin-right: 0px !important;
+    }
+  /* banner css end */
+
+
+}
+
+@media (min-width: 520px) and (max-width: 575.98px) { 
+    /* banner css start */
+    .banner img{
+        width: 384.97px;
+        height: 107.62px;  
+    }
+    .banner p{
+        font-size: 16px !important;
+    }
+    .button {
+        display: flex !important;
+        justify-content: center;
+    }
+    .button button{
+        font-size: 16px !important;
+        margin-right: 8px !important;
+    }
+    .button button:last-child{
+        margin-right: 0px !important;
+    }
+    
+  /* banner css end */
+
+
+}
+
+
+
+@media (min-width: 370px) and (max-width: 520.98px) {
+     /* banner css start */
+     .banner img{
+        width: 250px;
+        height: auto;  
+    }
+    .banner p{
+        font-size: 14px !important;
+    }
+
+    .button button{
+        font-size: 14px !important;
+        margin-right: 8px !important;
+    }
+    .button button:last-child{
+        margin-right: 0px !important;
+    }
+    .button button{
+        margin-bottom: 20px;
+    }
+
+    #Banner{
+        height: 690px !important;
+    }
+    
+    #Banner::after {
+        height: 22% !important;
+    }
+
+
+  /* banner css end */
+
+}
+
+@media (max-width: 369.98px) {
+  /* banner css start */
+  .banner img{
+    width: 250px;
+    height: auto;  
+}
+.banner p{
+    font-size: 14px !important;
+}
+
+.button button{
+    font-size: 14px !important;
+    margin-right: 8px !important;
+}
+.button button:last-child{
+    margin-right: 0px !important;
+}
+.button button{
+    margin-bottom: 20px;
+}
+
+#Banner{
+    height: 690px !important;
+}
+
+#Banner::after {
+    height: 22% !important;
+}
+
+
+/* banner css end */
+
+}
+
+
+
+
